@@ -61,7 +61,6 @@ export default function InvoiceApp({ token, setToken }) {
         }
 
         const json = await response.json();
-        console.log("Uploaded:", json);
         fetchInvoices();
     } catch (err) {
         console.error("Upload error:", err);
