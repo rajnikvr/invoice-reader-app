@@ -41,23 +41,3 @@ It uses **Google Gemini AI** to extract and structure data into JSON format and 
 | **OCR / Parsing** | pdf-parse, tesseract.js, mammoth, xlsx |
 
 ---
-
-## 📦 Folder Structure
-
-invoice-reader/
-├── client/ # React Native app
-│ ├── App.js
-│ ├── screens/
-│ │ ├── AuthScreen.js
-│ │ ├── HomeScreen.js
-│ │ └── InvoiceList.js
-│ └── components/
-│ └── TableView.js
-│
-├── server/ # Node.js backend
-│ ├── index.js
-│ ├── uploads/ # Temporary uploaded files
-│ ├── data/ # Stored processed data (if any)
-│ └── .env
-│
-└── README.md
