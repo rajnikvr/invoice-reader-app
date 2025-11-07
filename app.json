@@ -15,6 +15,7 @@
     "ios": {
       "supportsTablet": true
     },
+    "plugins": ["expo-document-picker"],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
