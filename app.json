@@ -15,16 +15,24 @@
     "ios": {
       "supportsTablet": true
     },
-    "plugins": ["expo-document-picker"],
+    "plugins": [
+      "expo-document-picker"
+    ],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.rajnikvr.invoicereaderapp"
     },
     "web": {
       "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1098ae18-b0c5-473b-b0ab-def743ebb1f1"
+      }
     }
   }
 }
